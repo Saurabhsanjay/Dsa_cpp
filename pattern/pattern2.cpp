@@ -47,11 +47,11 @@ for (int row = 0; row < rowcount; row++)
     }
    }
    else{
-    cout <<"*";
+    
     for(int col=0;col<colcount-2;col++){
       cout<<" ";
     }
-    cout<<"*";
+    cout<<" *";
    }
 cout<<endl;
 }
