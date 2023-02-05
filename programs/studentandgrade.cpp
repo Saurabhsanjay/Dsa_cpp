@@ -3,25 +3,17 @@ using namespace std;
 
 char printGrade(int a)
 {
-    if (a >= 90)
+    switch (a / 10)
     {
+    case 10:
+    case 9:
         return 'A';
-        /* code */
-    }
-    else if (a >= 80)
-    {
+    case 8:
         return 'B';
-        /* code */
-    }
-    else if (a >= 70)
-    {
+    case 7:
         return 'C';
-        /* code */
-    }
-    else
-    {
+    default:
         return 'D';
-        /* code */
     }
 }
 
