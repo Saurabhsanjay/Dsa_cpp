@@ -27,7 +27,7 @@ vector<int>arr(n);
     
 int uniqueelemnts=findUnique(arr);
 
-cout<<"Unique elemetns is"<<uniqueelemnts<<endl;
+cout<<"Unique elemetns is"<<uniqueelemnts<<" "<<endl;
     
     return 0;
 }
